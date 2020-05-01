@@ -9,6 +9,8 @@
     "crossfilter2": "^1.5.2",
     "d3": "^5.16.0",
     "dc": "^4.0.3",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
@@ -16,7 +18,8 @@
     "terser": "3.14.1"
   },
   "scripts": {
-    "start": "serve -s build -l 8000",
+    "start": "node prod-server.js",
+    "startProd": "serve -s build -l 8000",
     "startDev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
