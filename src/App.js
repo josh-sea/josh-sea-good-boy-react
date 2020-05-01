@@ -92,7 +92,7 @@ class App extends Component {
     const group = dimension.group();
 
     chart
-      .width(750)
+      .width(300)
       .height(300)
       .dimension(dimension)
       .group(group)
@@ -130,7 +130,7 @@ class App extends Component {
     const width = this.state.width/2;
 
     chart
-        .width(750)
+        .width(300)
         .height(300)
         .x(d3.scaleBand())
         .xUnits(dc.units.ordinal)
