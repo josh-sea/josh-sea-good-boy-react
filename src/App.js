@@ -65,7 +65,7 @@ class App extends Component {
         })
         this.setState({ cf: ndx, dateDim });
       }
-    },90000000)
+    },30000)
   }
 
   remove_empty_bins = (source_group) => {
