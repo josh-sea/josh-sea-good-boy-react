@@ -9,7 +9,7 @@
     "crossfilter2": "^1.5.2",
     "d3": "^5.16.0",
     "dc": "^4.0.3",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-favicon": "^2.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
